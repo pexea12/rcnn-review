@@ -306,6 +306,14 @@ The results are much better in speed when comparing Faster R-CNN with R-CNN and 
 	\end{tabular}
 \end{center}
 
+\section{Experimental Result}
+
+The Python implementation of Faster R-CNN is hosted at \url{https://github.com/rbgirshick/py-faster-rcnn}. We have modified the original $demo.py$ file (used for object detection in still images) in order to detect people from a live camera feed. On a laptop computer with an NVIDIA 940MX graphics card and Core i5-6200U, detection takes approximately 0.6 seconds for each 640x480 frame. An image of the program running on Ubuntu is shown below. 
+
+\begin{center}
+	\includegraphics[scale=0.4]{faster_rcnn_result}
+\end{center}
+
 \clearpage
 \printbibliography[title={References}]
 
